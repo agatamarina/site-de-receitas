@@ -1,0 +1,10 @@
+{
+  "description": "Discover a diverse collection of recipes organized by categories, allowing users to easily share and explore detailed cooking instructions and ingredients.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

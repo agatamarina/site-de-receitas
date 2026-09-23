@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;0,9..144,700;1,9..144,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-cream: #f9f4ed;
+  --color-cream-dark: #ede7dc;
+  --color-terracotta: #c45b3a;
+  --color-terracotta-light: #e07a5f;
+  --color-brown: #6b4226;
+  --color-brown-light: #9b6845;
+  --color-sage: #7a8c6e;
+  --color-text: #2c1810;
+  --color-text-muted: #7a5c4a;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Nunito', system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9f4ed;
+  color: #2c1810;
+  font-family: 'Nunito', system-ui, sans-serif;
+  margin: 0;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #c45b3a55; border-radius: 3px; }
+
+.font-display {
+  font-family: 'Fraunces', Georgia, serif;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
